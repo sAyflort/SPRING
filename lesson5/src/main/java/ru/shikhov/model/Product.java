@@ -14,8 +14,8 @@ import lombok.ToString;
 @Entity
 @Getter
 @Setter
-@NoArgsConstructor
 @ToString
+@NoArgsConstructor
 @Table(name = "products")
 public class Product {
 
@@ -29,6 +29,8 @@ public class Product {
     @Column(nullable = false)
     private int price;
 
-    @Column(nullable = false, length = 1024)
-    private String password;
+    public Product(String title, int price) {
+        this.title = title;
+        this.price = price;
+    }
 }

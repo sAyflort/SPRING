@@ -3,7 +3,7 @@ services:
   db:
     image: mysql:8.0.30
     environment:
-      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_ROOT_PASSWORD: "987987ff"
     ports:
       - "3306:3306"
     volumes:
