@@ -88,4 +88,13 @@
         </plugins>
     </build>
 
+    <modules>
+        <module>lesson1</module>
+        <module>lesson2</module>
+        <module>lesson3-mvc-new</module>
+        <module>lesson1</module>
+        <module>lesson1</module>
+        <module>lesson1</module>
+    </modules>
+
 </project>
